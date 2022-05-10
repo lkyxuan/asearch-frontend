@@ -6,19 +6,36 @@
 
     <div class="desktop">
       <div class="app" @click="open('aSearch')">
-        <img src="" />
+        <img src="asearch" />
         <span>aSearch</span>
       </div>
-      <a
-        v-for="item in links"
-        :key="item.name"
-        class="app"
-        :href="item.url"
-        target="_blank"
-      >
+
+      <a class="app"  >
         <img src="" />
-        <span>{{ item.name }}</span>
+        <span>aSearch</span>
       </a>
+      <a class="app"  >
+      <img src="/favicon.ico" />
+      <span>aSeh</span>
+      </a>
+      <a class="app"  >
+        <img src="" />
+        <span>aSearch</span>
+      </a>
+      <a class="app"  >
+        <img src="" />
+        <span>aSearch</span>
+      </a>
+<!--      <a-->
+<!--        v-for="item in links"-->
+<!--        :key="item.name"-->
+<!--        class="app"-->
+<!--        :href="item.url"-->
+<!--        target="_blank"-->
+<!--      >-->
+<!--        <img src="" />-->
+<!--        <span>{{ item.name }}</span>-->
+<!--      </a>-->
 
       <!-- BACKGROUND -->
       <img class="logo" src="@/assets/textlogo.png" />
