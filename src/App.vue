@@ -26,6 +26,27 @@
         <img src="" />
         <span>aSearch</span>
       </a>
+      <a class="app"  >
+        <img src="" />
+        <span>aSearch</span>
+      </a>
+      <a class="app"  >
+        <img src="" />
+        <span>aSearch</span>
+      </a>
+      <a class="app"  >
+        <img src="" />
+        <span>aSearch</span>
+      </a>
+      <a class="app"  >
+        <img src="" />
+        <span>aSearch</span>
+      </a>
+      <a class="app"  >
+        <img src="" />
+        <span>aSearch</span>
+      </a>
+
 <!--      <a-->
 <!--        v-for="item in links"-->
 <!--        :key="item.name"-->
@@ -43,7 +64,7 @@
 
     <div class="as-taskbar">
       <div class="start" @click="starting = true">
-        <i class="ri-shut-down-line"></i>
+        <img src="/sds.png" />
       </div>
       <div class="minimized">
         <span v-for="(item, i) in minimized" :key="i" @click="reopen(item)">
@@ -66,13 +87,7 @@ import { defineComponent } from 'vue'
 import Window from '@/components/Window.vue'
 import StartingUp from '@/components/StartingUp.vue'
 
-const links = [
-  { name: 'Discord', url: '' },
-  { name: 'Arweave', url: '' },
-  { name: 'Twitter', url: '' },
-  { name: 'Github', url: '' },
-  { name: 'Medium', url: '' },
-]
+
 
 export default defineComponent({
   name: 'App',
@@ -85,9 +100,6 @@ export default defineComponent({
       starting: true,
       show: false,
       minimized: [] as string[],
-
-      // desktop
-      links,
     }
   },
   methods: {

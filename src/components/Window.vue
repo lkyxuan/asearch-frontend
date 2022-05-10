@@ -40,7 +40,7 @@ export default defineComponent({
   name: 'Window',
   data() {
     return {
-      X: 120,
+      X: 200,
       Y: 120,
 
       location: 'aSearch.io',

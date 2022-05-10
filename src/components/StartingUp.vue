@@ -18,6 +18,7 @@ const shuffle = (a: string[]) => {
 
 const render = (div: HTMLElement): number[] => {
   const fontSize = [20, 12, 12, 14, 12, 10, 12, 12, 14, 20, 10, 12]
+  const fontColor = ['red', 'blue','red', 'blue', 'red', 'blue', 'red','blue','#323128','#223345', '#999999', '#342344']
 
   const outWidth = div.getBoundingClientRect().width
   const textLength = 100
@@ -41,6 +42,7 @@ const render = (div: HTMLElement): number[] => {
     scrolltextText1.style.width = `${outWidth}px`
     scrolltextText1.style.height = `${fontSize[i]}px`
     scrolltextText1.innerHTML = text
+    scrolltextText1.style.color = fontColor[i]
 
     const scrolltextText2 = document.createElement('div')
     scrolltextText2.className = 'scrolltext-text'
@@ -48,6 +50,7 @@ const render = (div: HTMLElement): number[] => {
     scrolltextText2.style.height = `${fontSize[i]}px`
     scrolltextText2.style.fontSize = `${fontSize[i]}px`
     scrolltextText2.innerHTML = text
+    scrolltextText2.style.color = fontColor[i]
 
     scrolltextBox.appendChild(scrolltextText1)
     scrolltextBox.appendChild(scrolltextText2)
