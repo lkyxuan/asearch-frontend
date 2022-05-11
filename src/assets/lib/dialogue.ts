@@ -88,7 +88,7 @@ export const search: Command = async (args, logs) => {
     return false
   }
 
-  return fetch('https://asearch.io/search_mirror?q=' + encodeURI(keywords))
+  return fetch('https://api.asearch.io/search_mirror?q=' + encodeURI(keywords))
     .then((res) => res.json())
     .then((res: SearchResponse) => {
       const cols = 80
