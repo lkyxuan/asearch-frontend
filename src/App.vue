@@ -11,7 +11,7 @@
       </div>
 
       <a class="app" href='https://discord.com' target='_blank' >
-        <img src="/dis1.png" />
+        <img src="/dis.png" />
         <span>Discord</span>
       </a>
       <a class="app"  >
