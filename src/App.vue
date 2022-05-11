@@ -6,46 +6,35 @@
 
     <div class="desktop">
       <div class="app" @click="open('aSearch')">
-        <img src="asearch" />
-        <span>aSearch</span>
+        <img src="/icon/search.png" />
+        <span>Search</span>
       </div>
-
+      <a class="app"  >
+        <img src="/icon/covid.png" />
+        <span>Covid</span>
+      </a>
+      <a class="app"  >
+        <img src="/icon/docs.png" />
+        <span>Docs</span>
+      </a>
+      <a class="app"  href='mailto:hello@asearch.io'>
+        <img src="/icon/mail.png" />
+        <span>Mail-us</span>
+      </a>
+      <a class="app"  >
+        <img src="/icon/github.png" />
+        <span>Github</span>
+      </a>
+      <a class="app"  >
+        <img src="/icon/twitter.png" />
+        <span>Twitter</span>
+      </a>
       <a class="app" href='https://discord.com' target='_blank' >
-        <img src="/icon/dis1.png" />
+        <img src="/icon/discord.png" />
         <span>Discord</span>
       </a>
-      <a class="app"  >
-      <img src="/favicon.ico" />
-      <span>aSeh</span>
-      </a>
-      <a class="app"  >
-        <img src="" />
-        <span>aSearch</span>
-      </a>
-      <a class="app"  >
-        <img src="" />
-        <span>aSearch</span>
-      </a>
-      <a class="app"  >
-        <img src="" />
-        <span>aSearch</span>
-      </a>
-      <a class="app"  >
-        <img src="" />
-        <span>aSearch</span>
-      </a>
-      <a class="app"  >
-        <img src="" />
-        <span>aSearch</span>
-      </a>
-      <a class="app"  >
-        <img src="" />
-        <span>aSearch</span>
-      </a>
-      <a class="app"  >
-        <img src="" />
-        <span>aSearch</span>
-      </a>
+
+
 
 <!--      <a-->
 <!--        v-for="item in links"-->
@@ -64,7 +53,7 @@
 
     <div class="as-taskbar">
       <div class="start" @click="starting = true">
-        <img src="/sds.png" />
+        <img src="/logo-lit.png" />
       </div>
       <div class="minimized">
         <span v-for="(item, i) in minimized" :key="i" @click="reopen(item)">
@@ -171,7 +160,7 @@ export default defineComponent({
   grid-template-rows repeat(auto-fill, 100px)
   grid-template-columns repeat(auto-fill, 84px)
   gap 6px
-  background linear-gradient(to top, #3e5fa940, #1c9eb32b), linear-gradient(-225deg, #30d1c9, #05232c)
+  background linear-gradient(to top, #3e5fa940, #1c9eb32b), linear-gradient(-225deg, #35ded4, #05232c)
   .app
     padding 3px
     border dashed 1px transparent
@@ -217,7 +206,7 @@ export default defineComponent({
   right 0
   bottom 0
   height 40px
-  background-image linear-gradient(to left, #e6e9f0, #eef1f5)
+  background-image linear-gradient(to left, #35ded4, #05232c)
   display flex
   z-index 1000
   .start
