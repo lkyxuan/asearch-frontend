@@ -11,7 +11,7 @@
       </div>
 
       <a class="app" href='https://discord.com' target='_blank' >
-        <img src="/dis.png" />
+        <img src="/icon/dis1.png" />
         <span>Discord</span>
       </a>
       <a class="app"  >
@@ -188,7 +188,7 @@ export default defineComponent({
     > img
       width 56px
       height 56px
-      background-color #eee
+      //background-color #eee
     > span
       margin-top 4px
       font-size 16px
