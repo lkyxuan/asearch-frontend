@@ -10,9 +10,9 @@
         <span>aSearch</span>
       </div>
 
-      <a class="app"  >
-        <img src="" />
-        <span>aSearch</span>
+      <a class="app" href='https://discord.com' target='_blank' >
+        <img src="/dis1.png" />
+        <span>Discord</span>
       </a>
       <a class="app"  >
       <img src="/favicon.ico" />
