@@ -206,7 +206,7 @@ export default defineComponent({
   right 0
   bottom 0
   height 40px
-  background-image linear-gradient(to left, #35ded4, #05232c)
+  background-image linear-gradient(to left, #25394a, #4b8a96)
   display flex
   z-index 1000
   .start

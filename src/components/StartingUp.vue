@@ -18,7 +18,7 @@ const shuffle = (a: string[]) => {
 
 const render = (div: HTMLElement): number[] => {
   const fontSize = [20, 12, 12, 14, 12, 10, 12, 12, 14, 20, 10, 12]
-  const fontColor = ['red', 'blue','red', 'blue', 'red', 'blue', 'red','blue','#323128','#223345', '#999999', '#342344']
+  const fontColor = ['#33ffff', '#33ffff','#33ffff', '#33ffff', '#33ffff', '#33ffff', '#33ffff', '#33ffff', '#33ffff', '#33ffff', '#33ffff', '#33ffff']
 
   const outWidth = div.getBoundingClientRect().width
   const textLength = 100
@@ -148,7 +148,7 @@ export default defineComponent({
   left -20px
   right -20px
   bottom 0
-  background linear-gradient(to top, #30d1c9, #05232c, #222) 0 0 / 100% 200%
+  background linear-gradient(to top, #33ffff, #05232c, #222) 0 0 / 100% 200%
   display flex
   flex-direction column
   justify-content center
