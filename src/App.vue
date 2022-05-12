@@ -21,11 +21,15 @@
         <img src="/icon/Mail.png" />
         <span>Mail-us</span>
       </a>
-      <a class="app"  >
+      <a class="app"  href='https://github.com/AR-HACKSON/' target='_blank'  >
         <img src="/icon/Github.png" />
         <span>Github</span>
       </a>
-      <a class="app"  >
+      <a class="app" href='https://medium.com/@kristiancy/web3-search-engine-in-the-future-5b5ad48e55d1' target='_blank' >
+        <img src="/icon/Medium.png" />
+        <span>Medium</span>
+      </a>
+      <a class="app" href='https://twitter.com/Asearch_io' target='_blank' >
         <img src="/icon/Twitter.png" />
         <span>Twitter</span>
       </a>
