@@ -6,31 +6,31 @@
 
     <div class="desktop">
       <div class="app" @click="open('aSearch')">
-        <img src="/icon/search.png" />
+        <img src="/icon/Search.png" />
         <span>Search</span>
       </div>
       <a class="app"  >
-        <img src="/icon/covid.png" />
+        <img src="/icon/Covid.png" />
         <span>Covid</span>
       </a>
       <a class="app"  >
-        <img src="/icon/docs.png" />
+        <img src="/icon/Docs.png" />
         <span>Docs</span>
       </a>
       <a class="app"  href='mailto:hello@asearch.io'>
-        <img src="/icon/mail.png" />
+        <img src="/icon/Mail.png" />
         <span>Mail-us</span>
       </a>
       <a class="app"  >
-        <img src="/icon/github.png" />
+        <img src="/icon/Github.png" />
         <span>Github</span>
       </a>
       <a class="app"  >
-        <img src="/icon/twitter.png" />
+        <img src="/icon/Twitter.png" />
         <span>Twitter</span>
       </a>
       <a class="app" href='https://discord.com' target='_blank' >
-        <img src="/icon/discord.png" />
+        <img src="/icon/Discord.png" />
         <span>Discord</span>
       </a>
 
