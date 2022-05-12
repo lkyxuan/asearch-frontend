@@ -34,7 +34,7 @@
         <span>Twitter</span>
       </a>
       <a class="app" href='https://discord.com' target='_blank' >
-        <img src="/icon/Discord.png" />
+        <img src="/icon/Dis.png" />
         <span>Discord</span>
       </a>
 
