@@ -16,7 +16,14 @@ export const welcome: Command = (args, logs) => {
   const name = args[1]
   logs.push(
     '<span class="b">Welcome to aSearch!</span>' + (name ? ` ${name}` : ''),
-    'inpute "search<span class="y">  anything "to search.</span>sdsds',
+    '  ',
+    'inpute <span class="b">search anything </span>to search anything',
+    '----------------------------------------------------------------------------------------',
+    '|aSearch.io ><span class="y">search </span>Arweave                                                            |',
+    '|1. <span class="b">The Golden Permaweb: Arweave</span>                                                       |',
+    '|2. <span class="b">Arweave: Decentralized permanent archive</span>                                           |',
+    '---------------------------------------------------------------------------------------- ',
+    ' ',
     // '              <span class="y">Thanks for installing nuxtjs 🙏</span>',
     // '      <span class="d">Please consider donating to our open collective</span>',
     // '             <span class="d">to help us maintain this package.</span>',
