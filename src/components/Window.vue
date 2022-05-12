@@ -41,7 +41,7 @@ export default defineComponent({
   data() {
     return {
       X: 200,
-      Y: 120,
+      Y: 30,
 
       location: 'aSearch.io',
       logs: [] as string[],

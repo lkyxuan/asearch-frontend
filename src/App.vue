@@ -57,7 +57,7 @@
 
     <div class="as-taskbar">
       <div class="start" @click="starting = true">
-        <img src="/logo-lit.png" />
+        <img src="/logo.png" />
       </div>
       <div class="minimized">
         <span v-for="(item, i) in minimized" :key="i" @click="reopen(item)">
