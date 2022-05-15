@@ -338,8 +338,8 @@ export default defineComponent({
 <style lang="stylus" scoped>
 .as-window
   position absolute
-  width 880px
-  height 600px
+  width 853px
+  height 568px
   display flex
   flex-direction column
   border-radius 16px
