@@ -10,6 +10,10 @@
         <span>Search</span>
       </div>
       <a class="app"  >
+        <img src="/icon/Metamask.png" />
+        <span>Wallet</span>
+      </a>
+      <a class="app"  >
         <img src="/icon/Covid.png" />
         <span>Covid</span>
       </a>
