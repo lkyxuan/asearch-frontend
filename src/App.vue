@@ -10,7 +10,7 @@
         <span>Search</span>
       </div>
       <a class="app"  >
-        <img src="/icon/Metamask.png" />
+        <img src="/icon/Meta.png" />
         <span>Wallet</span>
       </a>
       <a class="app"  >
